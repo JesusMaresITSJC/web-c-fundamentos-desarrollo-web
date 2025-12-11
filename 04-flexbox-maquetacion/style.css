@@ -18,8 +18,8 @@ body{
   flex-wrap: nowrap;
   gap: 10px;
 
-  background-color: blueviolet;
-  border: 2px solid black;
+  background-color: rgb(43, 214, 226);
+  border: 2px solid rgb(40, 64, 217);
   width: 600px;
   height: 500px;
   color: white;
@@ -28,8 +28,8 @@ body{
 .boxy{
   width: 50%;
   height: 80px;
-  background-color: orange;
-  border: 2px solid black;
+  background-color: rgb(14, 235, 98);
+  border: 2px solid rgb(0, 0, 0);
   font-size: 2rem;
 }
 
