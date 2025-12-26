@@ -1,12 +1,5 @@
-/* ============================================
-   CIBERSEGURIDAD - ESTILO HACKER CYBERPUNK
-   ============================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap');
-
-/* ============================================
-   VARIABLES Y RESET
-   ============================================ */
 
 * {
     margin: 0;
@@ -31,10 +24,6 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
-
-/* ============================================
-   NAVBAR
-   ============================================ */
 
 nav {
     background: rgba(10, 14, 39, 0.95);
@@ -86,10 +75,6 @@ nav a:hover::before {
     left: -20px;
 }
 
-/* ============================================
-   HEADER
-   ============================================ */
-
 header {
     background: linear-gradient(135deg, var(--darker-bg) 0%, var(--dark-bg) 100%);
     padding: 4rem 2rem;
@@ -112,10 +97,6 @@ header p {
     color: var(--accent-cyan);
     letter-spacing: 2px;
 }
-
-/* ============================================
-   INTRO SECTION
-   ============================================ */
 
 .intro {
     max-width: 900px;
@@ -146,10 +127,6 @@ header p {
     font-size: 1.1rem;
     line-height: 1.8;
 }
-
-/* ============================================
-   PLATAFORMAS - GRID
-   ============================================ */
 
 .plataformas {
     display: grid;
@@ -206,15 +183,17 @@ header p {
     z-index: 1;
 }
 
+.recursos-extra img{
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+}
+
 .plataforma-card p {
     line-height: 1.8;
     position: relative;
     z-index: 1;
 }
-
-/* ============================================
-   RECURSOS EXTRA - FLEXBOX
-   ============================================ */
 
 .recursos-extra {
     padding: 3rem 2rem;
@@ -255,23 +234,6 @@ header p {
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
-
-.recurso-card .icon-placeholder {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 1rem;
-    border: 2px dashed var(--accent-cyan);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--accent-cyan);
-    font-size: 0.7rem;
-}
-
-/* ============================================
-   FORMULARIO DE CONTACTO
-   ============================================ */
 
 .form-container {
     max-width: 700px;
@@ -367,10 +329,6 @@ input[type="submit"]:hover {
     transform: scale(1.02);
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
-
 footer {
     background: var(--darker-bg);
     border-top: 3px solid var(--primary-color);
@@ -413,10 +371,6 @@ footer {
     font-family: 'Orbitron', sans-serif;
 }
 
-/* ============================================
-   HR PERSONALIZADO
-   ============================================ */
-
 hr {
     border: none;
     height: 2px;
@@ -431,11 +385,6 @@ hr {
     margin: 2rem 0;
 }
 
-/* ============================================
-   MEDIA QUERIES - RESPONSIVE
-   ============================================ */
-
-/* Tablets y pantallas medianas */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
@@ -469,7 +418,6 @@ hr {
     }
 }
 
-/* Móviles pequeños */
 @media (max-width: 480px) {
     h1 {
         font-size: 1.5rem;
