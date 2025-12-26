@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiberSeguridad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#plataformas">Plataformas</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#Contactanos">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio">
+        <h1>Herramientas de Práctica en CiberSeguridad</h1>
+        <p>Aprende Hacking Ético, Practica en Laboratorios Reales y Construye tu Escudo Digital.</p>
+    </header>
+
+    <div class="intro">
+        <p>¡Bienvenido(a) a tu centro en seguridad digital!
+            En este blog te mostraremos el camino práctico para dominar la ciberseguridad.
+            Te guiaremos a las plataformas de práctica más importantes, en las cuales podrás aprender desde los fundamentos hasta técnicas avanzadas de penetration testing y defensa.
+            Si buscas convertir la curiosidad en habilidad y prepararte para ser un profesional de la seguridad informática, este es tu lugar.</p>
+    </div>
+
+    <hr>
+
+    <section id="plataformas" class="plataformas">
+        <h2 class="section-title">Plataformas</h2>
+        
+        <div class="plataforma-card htb">
+            <h2><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a></h2>
+            <img src="https://www.svgrepo.com/show/331423/hack-the-box.svg" alt="Hack The Box">
+            <p>
+            Hack The Box (HTB) es una plataforma de aprendizaje en línea para ciberseguridad, especializada en hacking ético. Se dirige tanto a principiantes que desean entrar en el campo como a profesionales experimentados que quieren perfeccionar sus habilidades. 
+            La plataforma ofrece una experiencia práctica y gamificada para desarrollar habilidades de seguridad ofensiva y defensiva a través de varios tipos de retos.
+            </p>
+        </div>
+
+        <div class="plataforma-card otw">
+            <h2><a href="https://overthewire.org/wargames/bandit/" target="_blank">OverTheWire</a></h2>
+            <img src="https://miro.medium.com/1*qO7TM0hqCq9UjfHghAxyiA.jpeg" alt="OverTheWire">
+            <p>
+            OverTheWire es una plataforma gratuita en línea que ofrece una serie de "juegos de guerra" o desafíos de seguridad interactivos, 
+            diseñados para ayudar a las personas a aprender y practicar conceptos de ciberseguridad. Es un recurso ideal para principiantes que buscan mejorar sus habilidades de línea de comandos de Linux y familiarizarse con el hacking ético.
+            </p>
+        </div>
+
+        <div class="plataforma-card thm">
+            <h2><a href="https://tryhackme.com/" target="_blank">TryHackMe</a></h2>
+            <img src="https://yt3.googleusercontent.com/2M3WiTvqDBIjd2AneqZ8CapyD9FL6NU9s2TIqiDliUujGPBhaTcHxFVRJQl8DLBjKL3T6NOJsg=s900-c-k-c0x00ffffff-no-rj" alt="TryHackMe">
+            <p>
+            TryHackMe es una plataforma de formación en ciberseguridad basada en navegador. Ofrece aprendizaje práctico y gamificado para todos los niveles. 
+            Es ampliamente reconocida como una plataforma ideal para principiantes que ayuda a los usuarios a adquirir experiencia práctica en seguridad ofensiva y defensiva mediante máquinas virtuales y rutas de aprendizaje guiadas.
+            </p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="recursos" class="recursos-extra">
+        <h2>Recursos Adicionales</h2>
+        <div class="recursos-flex">
+            <div class="recurso-card">
+                <div class="icon-placeholder">
+                    [ICONO 80x80px]
+                </div>
+                <h3>Certificaciones</h3>
+                <p>Prepárate para certificaciones como CEH, OSCP, CompTIA Security+ y más. Encuentra guías de estudio y recursos especializados.</p>
+            </div>
+
+            <div class="recurso-card">
+                <div class="icon-placeholder">
+                    [ICONO 80x80px]
+                </div>
+                <h3>Comunidad</h3>
+                <p>Únete a nuestra comunidad de ethical hackers. Comparte conocimientos, resuelve CTFs en equipo y participa en writeups colaborativos.</p>
+            </div>
+
+            <div class="recurso-card">
+                <div class="icon-placeholder">
+                    [ICONO 80x80px]
+                </div>
+                <h3>Herramientas</h3>
+                <p>Explora las mejores herramientas de pentesting: Metasploit, Burp Suite, Nmap, Wireshark, y aprende a usarlas efectivamente.</p>
+            </div>
+
+            <div class="recurso-card">
+                <div class="icon-placeholder">
+                    [ICONO 80x80px]
+                </div>
+                <h3>Laboratorios</h3>
+                <p>Monta tu propio laboratorio de pruebas. Guías paso a paso para configurar entornos virtuales seguros de práctica con VirtualBox y VMware.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- FORMULARIO -->
+    <div id="Contactanos" class="form-container">
+        <h3>Contáctanos:</h3>
+        <form action="">
+            <div>
+                <label for="fname">Nombre*</label>
+                <input type="text" name="fname" id="fname" required />
+            </div>
+
+            <div>
+                <label for="lname">Apellidos*</label>
+                <input type="text" name="lname" id="lname" required />
+            </div>
+
+            <div>
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+
+            <div>
+                <p class="form-label">Área de Consulta:*</p>
+
+                <div class="radio-option">
+                    <input type="radio" name="query_type" id="support" value="soporte" />
+                    <label for="support">Soporte Técnico</label>
+                </div>
+
+                <div class="radio-option">
+                    <input type="radio" name="query_type" id="moreinf" value="informacion" />
+                    <label for="moreinf">Más Información</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="message">Mensaje*</label>
+                <textarea name="message" id="message" rows="4" required></textarea>
+            </div>
+
+            <div class="checkbox-option">
+                <input type="checkbox" name="consent" id="consent" value="true" required />
+                <label for="consent">Doy mi consentimiento para que el equipo se ponga en contacto conmigo.*</label>
+            </div>
+            
+            <input type="submit" value="Enviar Transmisión" />
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre Nosotros</h4>
+                <p>Dedicados a democratizar el conocimiento en ciberseguridad. Aprender haciendo es nuestra filosofía.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <a href="#inicio">Inicio</a>
+                <a href="#plataformas">Plataformas</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#Contactanos">Contacto</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <a href="#">Twitter / X</a>
+                <a href="#">Discord</a>
+                <a href="#">GitHub</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 CiberSeguridad Hub | Hack The Planet 🔐</p>
+        </div>
+    </footer>
+
+</body>
+</html>
